@@ -119,16 +119,17 @@ html {
 }
 
 @media (max-width: 425px) {
-  .frame-div {
-    height: calc(100vh - 5rem);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .frame {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-bottom: 2rem;
-  }
+    .frame-div {
+        height: calc(100vh - 5rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      .frame {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 2rem;
+      }
+  
 }
