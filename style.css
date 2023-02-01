@@ -7,7 +7,9 @@
 }
 body,
 html {
-  background-color: aqua;
+  background-image: url('./images/BG\ IMG\ COLOR.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   width: 100vw;
 }
@@ -19,7 +21,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightslategray;
+  background-color: #C81693;
   width: 100vw;
   height: 5rem;
   color: white;
@@ -42,7 +44,7 @@ html {
   height: calc(100vh - 5rem);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .frame {
   display: flex;
@@ -96,9 +98,9 @@ html {
 #last {
   width: 7rem;
   height: 3rem;
-  background-color: blue;
+  background-color: #F4B3F3;
   border-radius: 4px;
-  color: white;
+  color: aquamarine;
   border: none;
   font-family: "Cursed Timer ULiL", sans-serif;
 }
