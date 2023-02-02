@@ -7,7 +7,7 @@
 }
 body,
 html {
-  background-image: url('./images/BG\ IMG\ COLOR.jpeg');
+  background-image: url('./images/leaves-ginkgo-tree.webp');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -21,10 +21,10 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #C81693;
+  background:linear-gradient(lightgreen, white,chartreuse );
   width: 100vw;
   height: 5rem;
-  color: white;
+  color: gray;
   font-family: "Cursed Timer ULiL", sans-serif;
 }
 .home h1 {
@@ -98,11 +98,13 @@ html {
 #last {
   width: 7rem;
   height: 3rem;
-  background-color: #F4B3F3;
+  background:linear-gradient(green, lightgreen, greenyellow);
   border-radius: 4px;
-  color: aquamarine;
+  color: green;
   border: none;
   font-family: "Cursed Timer ULiL", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
 }
 #last:hover {
   background-color: white;
@@ -114,7 +116,7 @@ html {
 .result {
   text-align: center;
   font-size: 30px;
-  color: black;
+  color:darkviolet;
   font-family: "Silkscreen", cursive;
 }
 
