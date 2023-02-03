@@ -7,7 +7,7 @@
 }
 body,
 html {
-  background-image: url('./images/leaves-ginkgo-tree.webp');
+  background-image: url('./images/wp2223771-gambling-wallpapers.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -21,14 +21,14 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:linear-gradient(lightgreen, white,chartreuse );
   width: 100vw;
   height: 5rem;
-  color: gray;
+  color: white;
+  font-size: 25px;
   font-family: "Cursed Timer ULiL", sans-serif;
 }
 .home h1 {
-  color: black;
+  color: white;
   padding-left: 2rem;
   margin-bottom: 1rem;
 }
@@ -58,7 +58,7 @@ html {
   margin-left: 2rem;
 }
 .guest h1 {
-  color: black;
+  color: white;
   padding-left: 2rem;
   margin-bottom: 1rem;
 }
@@ -98,17 +98,17 @@ html {
 #last {
   width: 7rem;
   height: 3rem;
-  background:linear-gradient(green, lightgreen, greenyellow);
+  background:linear-gradient(black, red, black);
   border-radius: 4px;
-  color: green;
+  color: white;
   border: none;
   font-family: "Cursed Timer ULiL", sans-serif;
   font-weight: 800;
   font-size: 20px;
 }
 #last:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   font-size: 15px;
   font-weight: 500;
   font-family: "Cursed Timer ULiL", sans-serif;
@@ -116,7 +116,7 @@ html {
 .result {
   text-align: center;
   font-size: 30px;
-  color:darkviolet;
+  color:lightcoral;
   font-family: "Silkscreen", cursive;
 }
 
